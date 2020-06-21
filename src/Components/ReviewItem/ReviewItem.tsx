@@ -10,11 +10,12 @@ type ReviewItemProps = {
 
 export const ReviewItem = ({ id, text, pic, reviewer }: ReviewItemProps) => {
   return (
-    <div>
-      <h2> {id} </h2>
-      <h2> {text} </h2>
-      <h2> {pic} </h2>
-      <h2> {reviewer} </h2>
-    </div>
+    <li className="review-item">
+      <div className="flex-container">
+        <img className="flex-item review-image" src={pic} alt="Bike image" />
+        <p className="flex-item flex-text">{text}</p>
+        <p className="flex-item review-reviewer">{reviewer}</p> 
+      </div>
+    </li>
   );
 };

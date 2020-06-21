@@ -1,0 +1,38 @@
+.flex-container {
+  background-color: rgb(41, 94, 87);
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+}
+
+.review-item {
+  padding: 5px;
+  margin-top: 10px;
+  max-width: 75%;
+  
+}
+
+.flex-item {
+  padding: 1rem;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+.review-image {
+  max-width: 15%;
+  height: auto;
+}
+.review-reviewer{
+    align-self: flex-end;
+}
+
+.flex-text{
+    text-align: justify;
+}
